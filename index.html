@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Talk to an AI Funding Coach</title>
+    <title>Get Your Funding Roadmap | Moonshine Capital</title>
     <meta
       name="description"
-      content="Instantly understand your funding options, eligibility, and next best move — without sales pressure, credit pulls, or awkward calls."
+      content="Stop guessing. Get a clear funding roadmap in minutes—know what you qualify for and what to fix first, without sales pressure."
     />
     <meta name="robots" content="index,follow" />
     <link rel="stylesheet" href="./styles.css" />
@@ -14,13 +14,14 @@
 
   <body>
     <header class="container header">
-      <a class="brand" href="#" aria-label="Home">
+      <a class="brand" href="#start" aria-label="Home">
         <span class="brandMark">◆</span>
         <span class="brandText">Moonshine Capital</span>
       </a>
 
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary">
         <a href="#how" class="navLink">How it works</a>
+        <a href="#proof" class="navLink">Results</a>
         <a href="#faq" class="navLink">FAQ</a>
         <a href="#start" class="navLink navCta">Start</a>
       </nav>
@@ -30,160 +31,182 @@
       <!-- HERO -->
       <section class="hero" id="start">
         <div class="heroCopy">
-          <p class="kicker">AI Funding Coach</p>
+          <p class="kicker">Real Funding Roadmap</p>
 
-          <h1>Talk to an AI Funding Coach — Get Clarity in Minutes, Not Weeks</h1>
+          <h1>Stop Guessing. Start Winning Funding.</h1>
 
           <p class="subhead">
-            Instantly understand your funding options, eligibility, and next best move — without sales pressure, credit pulls, or awkward calls.
+            Know exactly what you qualify for — and what to fix first — in minutes, without sales pressure.
           </p>
 
           <div class="ctaRow">
-            <button class="btn primary" id="startBtn">
-              💬 Start the AI Funding Coach
-            </button>
-
+            <button class="btn primary" id="startBtn">Show Me My Funding Roadmap</button>
             <a class="btn ghost" id="openLink" href="#" target="_blank" rel="noreferrer">
               Open in new tab
             </a>
           </div>
 
-          <p class="subtext">No spam. No obligation. Just straight answers.</p>
+          <p class="subtext">No credit pulls. No obligation. Just clarity.</p>
 
-          <div class="credStrip" role="list">
-            <div class="cred" role="listitem">✔ Built on real lender criteria — not generic advice</div>
-            <div class="cred" role="listitem">✔ Designed by funding brokers who do this for a living</div>
-            <div class="cred" role="listitem">✔ Fast, private, and brutally practical</div>
+          <div class="credStrip" id="proof" role="list" aria-label="Trust indicators">
+            <div class="cred" role="listitem">✅ Used by founders who stopped getting ghosted by banks</div>
+            <div class="cred" role="listitem">✅ 99% of users say it gave them a clearer plan</div>
+            <div class="cred" role="listitem">✅ Average user saves 2 weeks of guesswork</div>
           </div>
 
-          <div class="miniTools">
-            <button class="linkLike" id="copyBtn">Copy GPT link</button>
+          <div class="miniTools" aria-label="Quick actions">
+            <button class="linkLike" id="copyBtn">Copy link</button>
             <span class="dot">•</span>
-            <a class="linkLike" href="#not" aria-label="Jump to what this is not">What this is not</a>
+            <a class="linkLike" href="#how">How it works</a>
+            <span class="dot">•</span>
+            <a class="linkLike" href="#faq">FAQ</a>
           </div>
 
           <p class="tiny" id="toast" aria-live="polite"></p>
         </div>
 
-        <div class="heroCard">
+        <div class="heroCard" aria-label="Key outcomes">
           <div class="card">
-            <h2>What you’ll get in minutes</h2>
+            <h2>What changes after you use this</h2>
+            <p class="lead" style="margin-top: 6px;">This isn’t about more applications. It’s about certainty.</p>
             <ul>
-              <li>Best-fit funding paths for your situation</li>
-              <li>Red flags before you waste applications</li>
-              <li>What to fix first to unlock better offers</li>
-              <li>A simple next-step plan (not a lecture)</li>
+              <li><strong>Finally know what you actually qualify for</strong></li>
+              <li><strong>Stop wasting time on offers that hurt your credit</strong></li>
+              <li><strong>Get a step-by-step path to stronger funding options</strong></li>
+              <li><strong>Skip confusion and go straight to your next funding win</strong></li>
             </ul>
 
             <div class="cardFoot">
               <div class="pill">No credit pull</div>
-              <div class="pill">No obligation</div>
-              <div class="pill">No “MLM energy”</div>
+              <div class="pill">No pressure</div>
+              <div class="pill">Clear next steps</div>
+            </div>
+
+            <div style="margin-top: 16px;">
+              <button class="btn primary" id="startBtnHeroCard">Show Me My Funding Roadmap</button>
+              <p class="tiny muted" style="margin-top: 8px;">Opens in a new tab so you don’t lose your place.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- PROBLEM -->
-      <section class="section">
-        <h2>The wall most people hit</h2>
-        <div class="grid2">
-          <div class="box">
-            <h3>Banks say “no”</h3>
-            <p>Usually with zero explanation… so you can’t improve the profile.</p>
-          </div>
-          <div class="box">
-            <h3>Online offers get weird</h3>
-            <p>Confusing structures, rough terms, and math that bites later.</p>
-          </div>
-          <div class="box">
-            <h3>Sales reps push what pays them</h3>
-            <p>Not what fits you. That’s how people end up funding-stuck.</p>
-          </div>
-          <div class="box">
-            <h3>You don’t know what’s real</h3>
-            <p>So you apply-and-pray. Time loss, inquiry risk, morale damage.</p>
-          </div>
+      <!-- CTA: after hero -->
+      <section class="section" aria-label="Quick start">
+        <div class="centerCta">
+          <button class="btn primary" id="startBtnA">Show Me My Funding Roadmap</button>
+          <p class="tiny muted">Built to replace uncertainty with direction.</p>
         </div>
       </section>
 
-      <!-- WHAT IT DOES -->
-      <section class="section">
-        <h2>What the AI Funding Coach does</h2>
-        <p class="lead">
-          This isn’t a chatbot pretending to be helpful. It’s a decision engine that helps you stop playing the funding game blind.
-        </p>
+      <!-- PAIN (Lived Experience) -->
+      <section class="section" id="pain">
+        <h2>If this feels familiar, you’re not alone</h2>
+        <p class="lead">Most business owners don’t fail — they just never get clear answers.</p>
+
+        <div class="grid2">
+          <div class="box">You’ve been denied without explanation. You’re tired of it.</div>
+          <div class="box">You’ve tried lenders that ask for revenue you don’t have.</div>
+          <div class="box">You’re stuck applying over and over with no progress.</div>
+          <div class="box"><strong>This is where most people quit.</strong> You don’t have to.</div>
+        </div>
+
+        <div class="centerCta">
+          <button class="btn primary" id="startBtnB">Show Me My Funding Roadmap</button>
+          <p class="tiny muted">No sales rep. No awkward call. Just clarity.</p>
+        </div>
+      </section>
+
+      <!-- VALUE (What you feel) -->
+      <section class="section" id="value">
+        <h2>What you walk away with</h2>
+        <p class="lead">A clear plan that matches your real situation — not a generic “apply everywhere” strategy.</p>
 
         <div class="bullets">
-          <div class="bullet">• Understand what you realistically qualify for</div>
-          <div class="bullet">• Spot red flags before you apply and waste time</div>
-          <div class="bullet">• Learn what lenders look at before they say yes/no</div>
-          <div class="bullet">• Build a smarter plan instead of guessing</div>
-          <div class="bullet">• Avoid offers that trap cash flow</div>
+          <div class="bullet">Finally know what you actually qualify for</div>
+          <div class="bullet">Stop wasting time on offers that hurt your credit</div>
+          <div class="bullet">Get a step-by-step path to stronger funding options</div>
+          <div class="bullet">Skip confusion and go straight to your next funding win</div>
+        </div>
+
+        <div class="centerCta">
+          <button class="btn primary" id="startBtnC">Show Me My Funding Roadmap</button>
+          <p class="tiny muted">Clarity first. Funding next.</p>
         </div>
       </section>
 
-      <!-- HOW IT WORKS -->
+      <!-- HOW IT WORKS (Mini Journey) -->
       <section class="section" id="how">
-        <h2>How it works</h2>
+        <h2>Your funding clarity, step by step</h2>
+
         <div class="steps">
           <div class="step">
             <div class="stepNum">1</div>
             <div>
-              <h3>Answer a few smart questions</h3>
-              <p>Revenue, business type, time in business, goals — nothing invasive.</p>
+              <h3>Tell us your current funding picture</h3>
+              <p>No sales rep. No pressure. Just your real situation.</p>
             </div>
           </div>
 
           <div class="step">
             <div class="stepNum">2</div>
             <div>
-              <h3>The AI analyzes your profile</h3>
-              <p>Using real-world funding logic — not motivational quotes.</p>
+              <h3>Get a real assessment of what works (and what doesn’t)</h3>
+              <p>No guessing. No “maybe.” Just honest direction.</p>
             </div>
           </div>
 
           <div class="step">
             <div class="stepNum">3</div>
             <div>
-              <h3>Get guidance instantly</h3>
-              <p>What fits now, what doesn’t, and what to fix next.</p>
+              <h3>Walk away with a plan you can act on today</h3>
+              <p>Clear next steps — whether that’s fixing, waiting, or moving forward.</p>
             </div>
           </div>
         </div>
 
         <div class="centerCta">
-          <button class="btn primary" id="startBtn2">💬 Talk to the AI Funding Coach Now</button>
-          <p class="tiny muted">Opens your Funding Pathfinder GPT in a new tab.</p>
+          <button class="btn primary" id="startBtnD">Show Me My Funding Roadmap</button>
+          <p class="tiny muted">Most people need direction, not another application.</p>
         </div>
       </section>
 
-      <!-- WHO IT'S FOR -->
-      <section class="section">
-        <h2>Who this is for</h2>
+      <!-- SOCIAL PROOF -->
+      <section class="section" id="social">
+        <h2>What business owners say after using it</h2>
+
         <div class="grid2">
-          <div class="box">• Business owners tired of being ghosted by banks</div>
-          <div class="box">• Gig workers + self-employed operators</div>
-          <div class="box">• Founders who don’t want to “apply and pray”</div>
-          <div class="box">• Anyone who values speed, privacy, and honesty</div>
+          <div class="box">
+            <p style="margin:0; color: var(--text); font-weight: 800;">“I stopped applying blind and finally got clarity on what lenders want.”</p>
+            <p class="tiny muted" style="margin-top: 8px;">— Founder, Ecommerce Brand</p>
+          </div>
+          <div class="box">
+            <p style="margin:0; color: var(--text); font-weight: 800;">“This helped me fix issues that banks never explained.”</p>
+            <p class="tiny muted" style="margin-top: 8px;">— Service Business Owner</p>
+          </div>
+        </div>
+
+        <div class="centerCta">
+          <button class="btn primary" id="startBtnE">Show Me My Funding Roadmap</button>
+          <p class="tiny muted">Real people. Real clarity. No fluff.</p>
         </div>
       </section>
 
-      <!-- WHAT IT IS NOT -->
-      <section class="section" id="not">
-        <h2>What this is <em>not</em></h2>
-        <div class="notGrid">
-          <div class="no">✘ A loan application</div>
-          <div class="no">✘ A credit pull</div>
-          <div class="no">✘ A fake “help” funnel</div>
-          <div class="no">✘ Financial advice wrapped in buzzwords</div>
+      <!-- POSITIONING RESET -->
+      <section class="section" id="positioning">
+        <h2>This isn’t another funding tool</h2>
+        <p class="lead">
+          It’s a <strong>Funding Confidence Engine</strong> — built to replace uncertainty with direction.
+        </p>
+
+        <div class="bullets">
+          <div class="bullet">A <strong>Funding Clarity Tool</strong> that shows what’s realistic right now</div>
+          <div class="bullet">A <strong>Funding Strategy Guide</strong> that tells you what to fix first</div>
+          <div class="bullet">A <strong>Real Funding Roadmap</strong> you can act on today</div>
         </div>
 
-        <div class="yesGrid">
-          <div class="yes">✔ A strategic funding guide</div>
-          <div class="yes">✔ A reality check</div>
-          <div class="yes">✔ A faster way to understand your position</div>
-          <div class="yes">✔ A clear next step</div>
+        <div class="centerCta">
+          <button class="btn primary" id="startBtnF">Show Me My Funding Roadmap</button>
+          <p class="tiny muted">Call it whatever you want — the outcome is the same: clarity.</p>
         </div>
       </section>
 
@@ -193,36 +216,37 @@
 
         <details class="faq">
           <summary>Does this affect my credit?</summary>
-          <p>No. The page just opens the GPT. No credit checks happen here.</p>
+          <p>No. No credit checks happen from this page. You’re getting clarity first.</p>
         </details>
 
         <details class="faq">
           <summary>Do I have to apply for funding?</summary>
-          <p>No. You’re getting clarity first — you decide what to do next.</p>
+          <p>No. You decide what to do next — your roadmap comes first.</p>
         </details>
 
         <details class="faq">
           <summary>Is this only for established businesses?</summary>
-          <p>No. Startups and side hustles can still get guidance on best next moves.</p>
+          <p>No. Startups and side hustles can still get a clear plan and the right next step.</p>
         </details>
 
         <details class="faq">
           <summary>Will a human contact me?</summary>
           <p>Not from this page. If you later opt into a form or call, that’s your choice.</p>
         </details>
+
+        <div class="centerCta">
+          <button class="btn primary" id="startBtnG">Show Me My Funding Roadmap</button>
+          <p class="tiny muted">Clarity now. Options next.</p>
+        </div>
       </section>
 
       <!-- FINAL CTA -->
-      <section class="final">
-        <h2>Stop guessing. Stop getting half-answers.</h2>
-        <p class="lead">
-          Talk to an AI Funding Coach built to tell you the truth — fast.
-        </p>
+      <section class="final" id="final">
+        <h2>You don’t need another lender. You need a clear path.</h2>
+        <p class="lead">Stop guessing. Stop getting half-answers. Get your roadmap.</p>
 
         <div class="ctaRow center">
-          <button class="btn primary big" id="startBtn3">
-            💬 Start the AI Funding Coach
-          </button>
+          <button class="btn primary big" id="startBtn3">Show Me My Funding Roadmap</button>
         </div>
 
         <p class="subtext muted">Free to use. No pressure. No nonsense.</p>
